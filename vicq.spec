@@ -1,4 +1,5 @@
 Summary:	Simple text-mode ICQ client
+Summary(pl):	Prosty klient ICQ dzia³aj±cy w trybie tekstowym
 Name:		vicq
 Version:	0.4.1
 Release:	0.4
@@ -17,16 +18,29 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 vICQ is a simple text-mode ICQ client written with look and feel of
 micq in mind.
+
 Its features: PERL source code suitable for hacking and scripting,
 text-only look & feel, and ICQ v7 protocol support.
 
+%description -l pl
+vICQ to prosty klient ICQ dzia³aj±cy w trybie tekstowym napisany z
+my¶l± o zachowaniu micq.
+
+Cechy: kod ¼ród³owy w Perlu nadaj±cy siê do hackowania i
+oskryptowania, dzia³anie w trybie tylko tekstowym, obs³uga protoko³u
+ICQ v7.
+
 %package -n perl-Net-vICQ
-Summary:	Net::vICQ - simple text-mode ICQ based on Based on Net::ICQ2000
-Group:      Development/Languages/Perl
+Summary:	Net::vICQ - simple text-mode ICQ based on Net::ICQ2000
+Summary(pl):	Net::vICQ - proste ICQ w trybie tekstowym oparte na Net::ICQ2000
+Group:		Development/Languages/Perl
 Requires:	perl-base
 
 %description -n perl-Net-vICQ
-Simple text-mode ICQ based on Based on Net::ICQ2000.
+Simple text-mode ICQ based on Net::ICQ2000.
+
+%description -n perl-Net-vICQ -l pl
+Proste ICQ w trybie tekstowym oparte na Net::ICQ2000.
 
 %prep
 %setup -q -n %{name}
@@ -34,7 +48,7 @@ Simple text-mode ICQ based on Based on Net::ICQ2000.
 %build
 cd Net/vICQ
 %{__perl} Makefile.PL \
-    INSTALLDIRS=vendor
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
