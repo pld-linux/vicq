@@ -1,5 +1,5 @@
 Summary:	Simple text-mode ICQ client
-Summary(pl.UTF-8):   Prosty klient ICQ działający w trybie tekstowym
+Summary(pl.UTF-8):	Prosty klient ICQ działający w trybie tekstowym
 Name:		vicq
 Version:	0.4.1
 Release:	0.4
@@ -32,7 +32,7 @@ ICQ v7.
 
 %package -n perl-Net-vICQ
 Summary:	Net::vICQ - simple text-mode ICQ based on Net::ICQ2000
-Summary(pl.UTF-8):   Net::vICQ - proste ICQ w trybie tekstowym oparte na Net::ICQ2000
+Summary(pl.UTF-8):	Net::vICQ - proste ICQ w trybie tekstowym oparte na Net::ICQ2000
 Group:		Development/Languages/Perl
 Requires:	perl-base
 
