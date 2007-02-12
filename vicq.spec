@@ -1,5 +1,5 @@
 Summary:	Simple text-mode ICQ client
-Summary(pl):	Prosty klient ICQ dzia≥aj±cy w trybie tekstowym
+Summary(pl.UTF-8):   Prosty klient ICQ dzia≈ÇajƒÖcy w trybie tekstowym
 Name:		vicq
 Version:	0.4.1
 Release:	0.4
@@ -22,24 +22,24 @@ micq in mind.
 Its features: PERL source code suitable for hacking and scripting,
 text-only look & feel, and ICQ v7 protocol support.
 
-%description -l pl
-vICQ to prosty klient ICQ dzia≥aj±cy w trybie tekstowym napisany z
-my∂l± o zachowaniu micq.
+%description -l pl.UTF-8
+vICQ to prosty klient ICQ dzia≈ÇajƒÖcy w trybie tekstowym napisany z
+my≈õlƒÖ o zachowaniu micq.
 
-Cechy: kod ºrÛd≥owy w Perlu nadaj±cy siÍ do hackowania i
-oskryptowania, dzia≥anie w trybie tylko tekstowym, obs≥uga protoko≥u
+Cechy: kod ≈∫r√≥d≈Çowy w Perlu nadajƒÖcy siƒô do hackowania i
+oskryptowania, dzia≈Çanie w trybie tylko tekstowym, obs≈Çuga protoko≈Çu
 ICQ v7.
 
 %package -n perl-Net-vICQ
 Summary:	Net::vICQ - simple text-mode ICQ based on Net::ICQ2000
-Summary(pl):	Net::vICQ - proste ICQ w trybie tekstowym oparte na Net::ICQ2000
+Summary(pl.UTF-8):   Net::vICQ - proste ICQ w trybie tekstowym oparte na Net::ICQ2000
 Group:		Development/Languages/Perl
 Requires:	perl-base
 
 %description -n perl-Net-vICQ
 Simple text-mode ICQ based on Net::ICQ2000.
 
-%description -n perl-Net-vICQ -l pl
+%description -n perl-Net-vICQ -l pl.UTF-8
 Proste ICQ w trybie tekstowym oparte na Net::ICQ2000.
 
 %prep
